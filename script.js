@@ -50,7 +50,9 @@ function bindCoodinatesToMap() {
             opacity: 0.5,
             smoothFactor: 1
         });
-        var animatedMarker = L.animatedMarker(line.getLatLngs());
+        var animatedMarker = L.animatedMarker(line.getLatLngs(), {
+            interval: 400 // milliseconds
+        });
         map.addLayer(animatedMarker);
 
     });
