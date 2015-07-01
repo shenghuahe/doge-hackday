@@ -8,8 +8,4 @@ $(document).ready(function () {
 
     startJourney('#start', '/data/coordinates-by-time-1st.json');
 
-    plotGasStations();
-
-    plotWarning();
-
 });

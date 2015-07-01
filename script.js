@@ -30,12 +30,23 @@ function startJourney(triggerId, sourceData) {
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: carIcon,
-            interval: 100, // milliseconds,
+            interval: 2000, // milliseconds,
             autoStart: false,
             onEnd: function () {
+
+                plotGasStations();
+
+                createRoute(L.latLng(44.49676039292316,25.99407531629961), L.latLng(44.506279, 25.987052))
+
                 $('#continue').click(function () {
                     map.removeLayer(animatedMarker);
                     continueJourney('/data/coordinates-by-time-2nd.json');
+
+                    plotWarning();
+
+                    removeRoute();
+
+                    map.setView([44.498489, 25.996879], 13);
                 });
             }
         });
@@ -73,7 +84,7 @@ function continueJourney(sourceData) {
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: carIcon,
-            interval: 100 // milliseconds,
+            interval: 2000 // milliseconds,
         });
 
         map.addLayer(animatedMarker);
