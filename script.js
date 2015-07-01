@@ -49,7 +49,6 @@ function startJourney(triggerId, sourceData) {
 
                     removeRoute();
 
-                    map.setView([44.498489, 25.996879], 13);
                 });
             }
         });
