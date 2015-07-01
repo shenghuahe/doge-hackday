@@ -1,0 +1,795 @@
+[
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136870389,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.977672161142884,
+        "latitude": 44.485769531145124,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136870791,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.977787532060777,
+        "latitude": 44.48584538525256,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136871291,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.97793119059074,
+        "latitude": 44.48593983790809,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136871790,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.978074355543498,
+        "latitude": 44.48603396604632,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136872291,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.978217714796386,
+        "latitude": 44.48612821258048,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136872790,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.97836116880426,
+        "latitude": 44.486222482357086,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136873293,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.978505271973205,
+        "latitude": 44.48631717872525,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136873791,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.97864812212456,
+        "latitude": 44.486411051681856,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136874290,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.978791553543566,
+        "latitude": 44.48650530661435,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136874790,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.978935017521724,
+        "latitude": 44.48659958294285,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136875292,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.979079015367248,
+        "latitude": 44.486694210098484,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136875789,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.979221570434973,
+        "latitude": 44.48678788914299,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136876292,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.97936562526033,
+        "latitude": 44.486882553742504,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136876789,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.979508396228162,
+        "latitude": 44.48697637466422,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136877290,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.97965173640088,
+        "latitude": 44.48707056963487,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136877791,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.979795025083963,
+        "latitude": 44.487164730769464,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136878338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.979952016169708,
+        "latitude": 44.487267926897296,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136878837,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980091622544293,
+        "latitude": 44.48736002324912,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136879336,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980230534063537,
+        "latitude": 44.48745166121469,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136879839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980368455439802,
+        "latitude": 44.48754264599694,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136880496,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980540421143754,
+        "latitude": 44.48765608934091,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136880837,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98062842035727,
+        "latitude": 44.487714141178095,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136881338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980755325449557,
+        "latitude": 44.48779785867353,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136882338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.980992023706747,
+        "latitude": 44.4879540051678,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136883338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.981193454700133,
+        "latitude": 44.488086886346686,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136884337,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.981381808394996,
+        "latitude": 44.4882111406166,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136885341,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.981538529764237,
+        "latitude": 44.488314527488455,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136886338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98166133563844,
+        "latitude": 44.48839554078767,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136887338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98175850109072,
+        "latitude": 44.488459639462995,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136888338,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98184074521678,
+        "latitude": 44.48851389475034,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136889340,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98191748403527,
+        "latitude": 44.488564518264106,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136890357,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98199520002411,
+        "latitude": 44.48861578640334,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136891839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982108525483447,
+        "latitude": 44.48869054560688,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136892839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98218467900241,
+        "latitude": 44.488740783006826,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136893839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982260782486897,
+        "latitude": 44.48879098739973,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136894839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982336673489982,
+        "latitude": 44.48884105162166,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136895839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982412381964647,
+        "latitude": 44.48889099543217,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136896845,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982488664286787,
+        "latitude": 44.48894131780175,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136897840,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.9825638932179,
+        "latitude": 44.48899094526416,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136898839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982639374576717,
+        "latitude": 44.48904073924956,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136899839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982714969190962,
+        "latitude": 44.489090607947965,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136900841,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982790609458664,
+        "latitude": 44.48914050676331,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136901839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982866008635565,
+        "latitude": 44.48919024653446,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136902842,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.982941569265755,
+        "latitude": 44.489240092814065,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136903867,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.983018718643144,
+        "latitude": 44.489290987167735,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136905078,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98310981273727,
+        "latitude": 44.48935108065391,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136905838,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.983167086095037,
+        "latitude": 44.48938886307841,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136906839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98324246761322,
+        "latitude": 44.489438591200354,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136907840,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98331785589311,
+        "latitude": 44.48948832378289,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136908839,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98339317734788,
+        "latitude": 44.489538012281855,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136909902,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.983473516879506,
+        "latitude": 44.489591011135175,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136911340,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.983582534100872,
+        "latitude": 44.48966292825503,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136912342,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98365849000191,
+        "latitude": 44.48971303528922,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136913339,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98373431910658,
+        "latitude": 44.48976305867764,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136914345,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98381086864007,
+        "latitude": 44.489813817699265,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136915340,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.983886297693406,
+        "latitude": 44.489863963271034,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136916341,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98396234667312,
+        "latitude": 44.48991452097263,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136917341,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98403798736018,
+        "latitude": 44.48996480723945,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136918339,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.98411349666367,
+        "latitude": 44.49001500616188,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136919340,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.9841892122878,
+        "latitude": 44.4900653422472,
+        "carid": 301,
+        "jobid": 30669
+      }
+    ]
+  },
+  {
+    "values": [
+      {
+        "tcutimestamp": 1435136963024,
+        "status": 1,
+        "owner": 4608,
+        "longitude": 25.99407531629961,
+        "latitude": 44.49676039292316,
+        "carid": 301,
+        "jobid": 30670
+      }
+    ]
+  }
+]

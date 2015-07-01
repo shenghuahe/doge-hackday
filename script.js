@@ -9,8 +9,8 @@ function enableMap() {
     }).addTo(map);
 }
 
-function bindCoodinatesToMap() {
-    $.getJSON('/data/coodinates-by-time.json', function (data) {
+function startJourney(triggerId, sourceData) {
+    $.getJSON(sourceData, function (data) {
         var route = [];
         for (i = 0; i < data.length; i++) {
             var point = new L.LatLng(data[i].values[0].latitude, data[i].values[0].longitude);
@@ -30,10 +30,55 @@ function bindCoodinatesToMap() {
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: carIcon,
-            interval: 400 // milliseconds
+            interval: 100, // milliseconds,
+            autoStart: false,
+            onEnd: function () {
+                $('#continue').click(function () {
+                    map.removeLayer(animatedMarker);
+                    continueJourney('/data/coordinates-by-time-2nd.json');
+                });
+            }
+        });
+
+
+        map.addLayer(animatedMarker);
+
+        //journey control
+        $(triggerId).click(function () {
+            animatedMarker.start();
+        });
+
+    });
+}
+
+
+function continueJourney(sourceData) {
+    $.getJSON(sourceData, function (data) {
+        var route = [];
+        for (i = 0; i < data.length; i++) {
+            var point = new L.LatLng(data[i].values[0].latitude, data[i].values[0].longitude);
+            route.push(point);
+        }
+        var line = new L.Polyline(route, {
+            color: 'red',
+            weight: 3,
+            opacity: 0.5,
+            smoothFactor: 1
+        });
+
+        var carIcon = L.icon({
+            iconUrl: 'car_map.png',
+            iconAnchor: [0, 60]
+        });
+
+        var animatedMarker = L.animatedMarker(line.getLatLngs(), {
+            icon: carIcon,
+            interval: 100 // milliseconds,
         });
 
         map.addLayer(animatedMarker);
 
+
     });
 }
+

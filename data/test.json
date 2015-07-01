@@ -1,0 +1,47 @@
+[
+  {
+    "sigid": 4608,
+    "restrict": [
+      {
+        "type": "between",
+        "field": "tcutimestamp",
+        "value": [
+          1434711500000,
+          1435749550000
+        ]
+      },
+      {
+        "field": "carid",
+        "value": 301
+      },
+      {
+        "field": "status",
+        "value": 1
+      }
+    ],
+    "limit": 50
+  },
+  {
+    "sigid": 4608,
+    "restrict": [
+      {
+        "type": "between",
+        "field": "tcutimestamp",
+        "value": [
+          1434711500000,
+          1435749550000
+        ]
+      },
+      {
+        "field": "carid",
+        "value": 301
+      },
+      {
+        "field": "status",
+        "value": 1
+      }
+    ],
+    "limit": 50
+  }
+]
+
