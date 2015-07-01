@@ -1,4 +1,5 @@
 var map = null;
+var speed = 1000;
 
 function enableMap() {
     L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
@@ -30,7 +31,7 @@ function startJourney(triggerId, sourceData) {
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: carIcon,
-            interval: 2000, // milliseconds,
+            interval: speed, // milliseconds,
             autoStart: false,
             onEnd: function () {
 
@@ -48,7 +49,6 @@ function startJourney(triggerId, sourceData) {
 
                     removeRoute();
 
-                    map.setView([44.498489, 25.996879], 13);
                 });
             }
         });
@@ -86,7 +86,7 @@ function continueJourney(sourceData) {
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
             icon: carIcon,
-            interval: 2000 // milliseconds,
+            interval: speed // milliseconds,
         });
 
         map.addLayer(animatedMarker);
