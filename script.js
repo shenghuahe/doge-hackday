@@ -24,8 +24,8 @@ function bindCoodinatesToMap() {
         });
 
         var carIcon = L.icon({
-            iconUrl: 'car_icon.png',
-            iconAnchor: [22, 10]
+            iconUrl: 'car_map.png',
+            iconAnchor: [0, 60]
         });
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
