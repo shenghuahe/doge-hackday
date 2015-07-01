@@ -6,7 +6,7 @@ function plotWarning() {
         popupAnchor:  [-3, -76]
     });
 
-    var warningOne = L.marker([44.515472, 26.013841], {icon: warningIcon}).addTo(map);
+    var warningOne = L.marker([44.508403, 26.005945], {icon: warningIcon}).addTo(map);
 
     warningOne.bindPopup("<b>Warning</b><br>A Texas grandmother, in a horrific crash that trapped her inside her car for two days, survived two days by soaking her T-shirt in a nearby pond to get water.");
 }
