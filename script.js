@@ -24,8 +24,8 @@ function startJourney(triggerId, sourceData) {
         });
 
         var carIcon = L.icon({
-            iconUrl: 'car_map.png',
-            iconAnchor: [0, 60]
+            iconUrl: 'car_icon.png',
+            iconAnchor: [0, 30]
         });
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
@@ -80,8 +80,8 @@ function continueJourney(sourceData) {
         });
 
         var carIcon = L.icon({
-            iconUrl: 'car_map.png',
-            iconAnchor: [0, 60]
+            iconUrl: 'car_icon.png',
+            iconAnchor: [0, 30]
         });
 
         var animatedMarker = L.animatedMarker(line.getLatLngs(), {
