@@ -3,7 +3,7 @@ $(document).ready(function () {
         alert("The paragraph was clicked.");
     });
 
-    map = L.map('map').setView([44.443540000000006, 25.912540000000003], 15);
+    map = L.map('map').setView([44.498489, 25.996879], 13);
     enableMap();
     bindCoodinatesToMap();
 
