@@ -3,6 +3,7 @@
 	<head>
 		<title>Doge Hackday</title>
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
+		<link rel="stylesheet" href="leaflet-routing-machine/leaflet-routing-machine.css" />
 		
 		<style>
 			 #map { 
@@ -12,11 +13,16 @@
 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
 		
+		
 		<script src='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.js'></script>
 		
 		<link href='https://api.tiles.mapbox.com/mapbox.js/v2.2.1/mapbox.css' rel='stylesheet' />
 
 		<script src="jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="leaflet-routing-machine/leaflet-routing-machine.js"></script>
+
 		<script src="script.js"></script>
 
 	</head>
@@ -59,6 +65,15 @@
 
 				var popup = L.popup();
 
+				// setting a route
+				L.Routing.control({
+				  waypoints: [
+				    L.latLng(52.486, 13.430),
+				    L.latLng(52.503, 13.408)
+				  ]
+				}).addTo(map);
+
+
 				function onMapClick(e) {
 				    popup
 				        .setLatLng(e.latlng)
@@ -67,6 +82,9 @@
 				}
 
 				map.on('click', onMapClick);
+
+
+
 
 		 </script>
 	</body>
