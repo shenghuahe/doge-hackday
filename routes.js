@@ -5,7 +5,7 @@ function createRoute(source, destination) {
             source,
             destination
         ],
-        useZoomParameter: false
+        fitSelectedRoutes: false
     }).addTo(map);
 }
 
