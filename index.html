@@ -1,6 +1,7 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+
         <!--
          *************************************
          WARNING: THE CODE IN THIS PROJECT IS REALLY SHIT, YOU'LL PROBABLY BE FIRED FROM YOUR JOB IF ANY ATTEMPT
@@ -10,12 +11,25 @@
          *************************************
          -->
 		<title>Doge Hackday</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
 		<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.css" />
 
 		<style>
 			 #map {
-			 	height: 600px;
+			 	height: 400px;
+				 margin: 20px;
 			 }
+
+			 .header img {
+				 width: 30px;
+				 height: 30px;
+				 margin-right: 10px;
+			 }
+
 		</style>
 
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/leaflet/0.7.3/leaflet.js"></script>
@@ -36,18 +50,36 @@
 
 		<script src="routes.js"></script>
 
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+
+		<!-- Latest compiled and minified JavaScript -->
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
 	</head>
 
 	<body>
 
-		<button id="start">start my journey</button>
-		<button id="continue">continue my journey</button>
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#">
+					<span class="header"><img src="road-spotter-logo.png" alt="Road Spotter"></span>
+
+					<span style="font-family:garamond; color:blue; font-size:160%;">Road Spotter</span>
+				</a>
+			</div>
+		</nav>
+
+		<p>
+			<button type="button" id="start" class="btn btn-lg btn-primary">start my journey</button>
+
+			<button type="button" id="continue" class="btn btn-lg btn-success">continue my journey</button>
+		</p>
 
 		<div id="map"></div>
 
-		<script type="text/javascript">
-
-
-		</script>
 	</body>
 </html>
