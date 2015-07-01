@@ -49,9 +49,11 @@ function startJourney(triggerId, sourceData) {
                     map.removeLayer(animatedMarker);
                     continueJourney('/data/coordinates-by-time-2nd.json');
 
-                    plotWarning();
-
                     removeRoute();
+
+                    setTimeout(function() {
+                        plotWarning();
+                    }, 1500);
 
                 });
             }

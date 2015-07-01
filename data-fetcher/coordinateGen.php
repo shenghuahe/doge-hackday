@@ -25,7 +25,7 @@ $postData1 = <<<DATA
 DATA;
 
 
-$ch = curl_init('https://mako.novero.com:8443/mako-ws/public/query');
+$ch = curl_init('https://embedded.totalsoft.ro/mako-ws/public/query');
 curl_setopt($ch, CURLOPT_CUSTOMREQUEST, "POST");
 curl_setopt($ch, CURLOPT_POSTFIELDS, $postData1);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -39,6 +39,6 @@ curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 $result = curl_exec($ch);
 //$response = json_decode($result, true);
 
-$outputResource = fopen("../data/coordinates_fetched.json", "+w");
+$outputResource = fopen(__DIR__."/../data/coordinates_fetched.json", "w+");
 fwrite($outputResource, $result);
 fclose($outputResource);
