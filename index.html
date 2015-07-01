@@ -20,7 +20,7 @@
 
 		<style>
 			 #map {
-			 	height: 400px;
+			 	height: 500px;
 				 margin: 20px;
 			 }
 
@@ -63,21 +63,23 @@
 
 	<body>
 
+		<!-- Fixed navbar -->
 		<nav class="navbar navbar-default">
-			<div class="navbar-header">
-				<a class="navbar-brand" href="#">
-					<span class="header"><img src="road-spotter-logo.png" alt="Road Spotter"></span>
+			<div class="container">
+				<div class="navbar-header">
+					<span class="header" style="margin-top: 5px;"> <img src="road-spotter-logo.png" alt="Road Spotter"></span>
+					<span style="font-family:garamond; color:blue; font-size:160%; margin-top: 20px;">Road Spotter</span>
+				</div>
 
-					<span style="font-family:garamond; color:blue; font-size:160%;">Road Spotter</span>
-				</a>
+				<div id="navbar" class="navbar-collapse collapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><button type="button" id="start" style="font-size: 12px; margin-top: 5px; margin-right: 5px" class="btn btn-primary">start my journey</button></li>
+						<li><button type="button" id="continue" style="font-size: 12px; margin-top: 5px;" class="btn btn-success">continue my journey</button></li>
+					</ul>
+				</div><!--/.nav-collapse -->
 			</div>
 		</nav>
 
-		<p>
-			<button type="button" id="start" class="btn btn-lg btn-primary">start my journey</button>
-
-			<button type="button" id="continue" class="btn btn-lg btn-success">continue my journey</button>
-		</p>
 
 		<div id="map"></div>
 

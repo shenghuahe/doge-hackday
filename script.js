@@ -37,6 +37,10 @@ function startJourney(triggerId, sourceData) {
 
                 animatedMarker.bindPopup("<b>Low on Fuel</b><br>Refill options are available.").openPopup();
 
+                $(".leaflet-popup-tip").hide();
+
+                $(".leaflet-popup").css("position", "relative");
+
                 plotGasStations();
 
                 createRoute(L.latLng(44.49676039292316,25.99407531629961), L.latLng(44.506279, 25.987052))
